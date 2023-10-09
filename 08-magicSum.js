@@ -10,7 +10,7 @@ function magicSum(arr, num) {
                 let sum = currentNum + previousNum;
 
                 if (sum === num) {
-                    console.log(`${previousNum} ${currentNum}`);
+                    console.log(`${previousNum} ${currentNum}++`);
                 }
             }
 
